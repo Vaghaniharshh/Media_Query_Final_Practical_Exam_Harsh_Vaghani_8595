@@ -1,0 +1,47 @@
+@media (max-width: 1024px) {
+  .team-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .team-container {
+    grid-template-columns: 1fr;
+  }
+
+  .team-header h2 {
+    font-size: 22px;
+  }
+
+  .team-header p {
+    font-size: 14px;
+  }
+
+  .team-card {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .team-card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .team-card h3 {
+    font-size: 16px;
+  }
+
+  .team-card p,
+  .team-card .bio {
+    font-size: 12px;
+  }
+
+  .social-icons i {
+    font-size: 16px;
+    margin: 0 4px;
+  }
+}

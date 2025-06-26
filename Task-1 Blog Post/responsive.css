@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .blog-post {
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .blog-post .title {
+    font-size: 32px;
+  }
+
+  .blog-post h2 {
+    font-size: 24px;
+  }
+
+  .meta {
+    font-size: 13.6px;
+  }
+
+  .blog-post p {
+    font-size: 15.2px;
+  }
+
+  .blog-post .conclusion {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-post {
+    padding: 16px;
+  }
+
+  .blog-post .title {
+    font-size: 28px;
+  }
+
+  .blog-post h2 {
+    font-size: 20px;
+  }
+
+  .blog-post p,
+  .meta,
+  .blog-post .conclusion {
+    font-size: 14.4px;
+  }
+}
